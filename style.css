@@ -1,3 +1,7 @@
+@import url("css/colorpallet.css");
+
+
+
 body
 {
     font-family: 'Roboto', sans-serif;
@@ -5,6 +9,7 @@ body
     line-height: 26px;
     font-weight: 400;
     color: #23214c;    
+    
 }
 
 body a
@@ -68,7 +73,8 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: #221C5A;
+    /* background-color: #221C5A; */
+    background-color: var(--color2);
     width: 100% !important;
     top: 0;
     position: fixed;
